@@ -1,0 +1,23 @@
+.navbg {
+  background-color: #448dcd;
+  box-shadow: -1px 10px 14px -2px rgb(32 31 161 / 75%);
+}
+.navbar-brand {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.nav-link {
+  color: white;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+ul {
+  font-weight: 700;
+  margin-right: 2rem;
+}
