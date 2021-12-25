@@ -6,6 +6,7 @@ import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home.js";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Signup />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
