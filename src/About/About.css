@@ -1,0 +1,14 @@
+.about {
+  cursor: pointer;
+  background-color: #448dcd;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.text {
+  width: 61%;
+  margin: auto;
+  font-weight: 600;
+  font-size: x-large;
+  margin-bottom: 8rem;
+}

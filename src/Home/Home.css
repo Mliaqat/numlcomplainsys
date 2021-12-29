@@ -13,7 +13,23 @@ h1 {
 .main {
   display: grid;
   grid-template-columns: auto auto;
+  margin-bottom: 2rem;
 }
 .content {
   margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.buttonClass {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  margin-top: 4rem;
+  margin-left: 30rem;
+  margin-bottom: 2rem;
+}
+
+.buttonClass:hover {
+  background: #37259b;
 }

@@ -7,6 +7,9 @@ function Home() {
     <div className="main">
       <article className="content">
         <h1>We are Here for Resolve Your Issue!</h1>
+        <button href="#" class="buttonClass">
+          Learn More
+        </button>
       </article>
       <article>
         <img src={img} className="img"></img>
