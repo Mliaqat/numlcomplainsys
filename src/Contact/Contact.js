@@ -1,62 +1,54 @@
 import React from "react";
 import "./Contact.css";
+import img from "../Asset/contact.png";
 
 function Contact() {
   return (
     <div>
-      <article className="row">
+      <article className="mx-auto">
         <h1>Contact Us</h1>
       </article>
-      <article>
-        <form class="form" role="form">
-          <div class="form-group">
-            <div class="col-sm-6">
+      <article className="main">
+        <form className="form">
+          <div>
+            <div>
               <input
                 type="text"
-                class="form-control"
-                id="name"
-                placeholder="NAME"
+                className="inputfield"
+                placeholder="Name"
                 name="name"
                 value=""
-                required
               />
             </div>
           </div>
 
-          <div class="form-group">
-            <div class="col-sm-6">
+          <div>
+            <div>
               <input
                 type="email"
-                class="form-control"
-                id="email"
+                className="inputfield"
                 placeholder="EMAIL"
                 name="email"
                 value=""
-                required
               />
             </div>
           </div>
 
           <textarea
-            class="form-control"
-            class="col-sm-6"
             rows="8"
             placeholder="MESSAGE"
             name="message"
             required
           ></textarea>
 
-          <button
-            class="btn btn-primary send-button"
-            id="submit"
-            type="submit"
-            value="SEND"
-          >
-            <div class="alt-send-button">
-              <span class="send-text">SEND</span>
-            </div>
-          </button>
+          <br></br>
+
+          <button className="button">SEND</button>
         </form>
+
+        <article>
+          <img src={img}></img>
+        </article>
       </article>
     </div>
   );

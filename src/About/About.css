@@ -12,3 +12,9 @@
   font-size: x-large;
   margin-bottom: 8rem;
 }
+
+.main {
+  display: grid;
+  grid-template-columns: auto 35rem;
+  margin-bottom: 2rem;
+}
