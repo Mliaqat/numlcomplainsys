@@ -43,7 +43,9 @@ function Contact() {
 
           <br></br>
 
-          <button className="button">SEND</button>
+          <div className="sub-btn">
+            <button className="postbtn">Submit Complaint</button>
+          </div>
         </form>
 
         <article>

@@ -1,0 +1,80 @@
+.box {
+  border-radius: 30px;
+  height: 3rem;
+  background: linear-gradient(225deg, #3873a9, #4289c9);
+  box-shadow: -32px 32px 65px #356da0, 32px -32px 65px #4793d8;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: white;
+  width: 22rem;
+  height: 10rem;
+  margin-top: 3rem;
+}
+.maincard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  margin: auto;
+  column-gap: 5rem;
+}
+
+svg {
+  width: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 17rem auto;
+  width: 70%;
+  margin: auto;
+  column-gap: 6rem;
+}
+
+input,
+select {
+  width: 100%;
+  background-color: transparent;
+}
+
+select {
+  border-color: white;
+  padding: 0.5rem;
+  color: white;
+}
+
+.background {
+  border-radius: 30px;
+  width: 80%;
+  background: linear-gradient(225deg, #3873a9, #4289c9);
+  box-shadow: -32px 32px 65px #356da0, 32px -32px 65px #4793d8;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+option:not(:first-of-type) {
+  color: black;
+}
+
+.sub-btn {
+  grid-column: 1/-1;
+}
+
+.postbtn {
+  margin-top: 1rem;
+  padding: 5px 10px;
+  width: 50%;
+  border-radius: 5px;
+  background: hsla(201, 100%, 50%, 0.1);
+  border: 1px solid hsl(201, 100%, 50%);
+  outline: none;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+}

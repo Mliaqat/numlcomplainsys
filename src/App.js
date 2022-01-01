@@ -7,6 +7,7 @@ import Home from "./Home/Home.js";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
+import Dashboard from "./Dashboard/Dashboard";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Signup />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </BrowserRouter>
