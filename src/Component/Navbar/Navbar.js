@@ -25,41 +25,23 @@ function Navbar() {
           >
             <ul className="navbar-nav mb-2">
               <li className="nav-item">
-                <NavLink
-                  activeClassName="active"
-                  exact={true}
-                  to="/"
-                  className="nav-link active"
-                  aria-current="page"
-                >
+                <NavLink to="/" className="nav-link active" aria-current="page">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  activeClassName="active"
-                  to="about"
-                  className="nav-link"
-                >
+                <NavLink to="about" className="nav-link">
                   About Us
                 </NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink
-                  activeClassName="active"
-                  to="contact"
-                  className="nav-link"
-                >
+                <NavLink to="contact" className="nav-link">
                   Contact Us
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  activeClassName="active"
-                  to="register"
-                  className="nav-link"
-                >
+                <NavLink to="register" className="nav-link">
                   Login
                 </NavLink>
               </li>

@@ -14,20 +14,28 @@ h1 {
   display: grid;
   grid-template-columns: auto auto;
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 .content {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 7rem;
 }
 
 .buttonClass {
-  border: 1px solid white;
-  background-color: transparent;
-  color: white;
-  padding: 0.5rem;
+  margin-top: 1rem;
+  padding: 5px 10px;
+  width: 50%;
+  border-radius: 5px;
+  background: hsla(201, 100%, 50%, 0.1);
+  border: 1px solid hsl(201, 100%, 50%);
+  outline: none;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 9rem;
   margin-top: 4rem;
-  margin-left: 30rem;
-  margin-bottom: 4rem;
 }
 
 .buttonClass:hover {

@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Signup from "./Singup/Signup";
-import Navbar from "./Navbar/Navbar";
-import Home from "./Home/Home.js";
-import About from "./About/About";
-import Contact from "./Contact/Contact";
-import Footer from "./Footer/Footer";
-import Dashboard from "./Dashboard/Dashboard";
+import Signup from "./Component/Singup/Signup";
+import Home from "./Component/Home/Home.js";
+import About from "./Component/About/About";
+import Contact from "./Component/Contact/Contact";
+import Footer from "./Component/Footer/Footer";
+import Dashboard from "./Component/Dashboard/Dashboard";
+import Navbar from "./Component/Navbar/Navbar";
 
 function App() {
   return (
