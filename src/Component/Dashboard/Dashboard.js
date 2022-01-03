@@ -131,9 +131,9 @@ function Dashboard() {
         <article>
           <select onChange={(e) => setcategory(e.target.value)}>
             <option value="">Please Select Category</option>
-            <option value="1">Fee</option>
-            <option value="3">Exam</option>
-            <option value="4">Faculty</option>
+            <option value="Fee">Fee</option>
+            <option value="Exam">Exam</option>
+            <option value="Faculty">Faculty</option>
           </select>
         </article>
         <div className="sub-btn">
@@ -218,7 +218,7 @@ const Modal = ({ handleClose, details }) => {
 
   const hanldeClick = async () => {
     await axios
-      .put(`${url}/${_id}`, Data)
+      .patch(`${url}/${_id}`, Data)
       .then(() => {
         alert("data is updated");
       })
@@ -268,9 +268,9 @@ const Modal = ({ handleClose, details }) => {
                 onChange={(e) => editProductValue(e)}
               >
                 <option value="">Please Select Category</option>
-                <option value="1">Fee</option>
-                <option value="3">Exam</option>
-                <option value="4">Faculty</option>
+                <option value="Fee">Fee</option>
+                <option value="Exam">Exam</option>
+                <option value="Faculty">Faculty</option>
               </select>
             </article>
           </article>

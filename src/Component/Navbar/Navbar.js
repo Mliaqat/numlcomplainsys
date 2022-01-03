@@ -7,7 +7,9 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbg">
         <div className="container-fluid">
-          <a className="navbar-brand">Numl Complain Sys</a>
+          <NavLink to="/" className="navbar-brand">
+            Numl Complain Sys
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
